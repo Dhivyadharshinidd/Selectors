@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        h1::after {
+            content: "*";
+            color: red;
+        }
+
+        h1::before {
+            content: "*";
+            color: red;
+        }
+
+        div:hover {
+            background-color: blue;
+        }
+
+        #heading {
+            text-align: center;
+            color: whitesmoke;
+            background-color: yellowgreen;
+            width: 800px;
+        }
+
+        .selectors {
+            background-color: brown;
+            width: 800px;
+            height: 200px;
+        }
+
+        li {
+            color: cornsilk;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading">SELECTORS</h1>
+    <div class="selectors">
+        <ul>
+            <h3>
+                <li>Simple selectors (select elements based on name, id, class)</li>
+                <br>
+                <li>Combinator selectors (select elements based on a specific relationship between them)</li><br>
+                <li>Pseudo-class selectors (select elements based on a certain state)</li><br>
+                <li>Pseudo-elements selectors (select and style a part of an element)</li><br>
+                <li>Attribute selectors (select elements based on an attribute or attribute value)</li><br>
+            </h3>
+        </ul>
+    </div>
+</body>
+
+</html>
